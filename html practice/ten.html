@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <!-- First Name -->
+        <label>First Name:</label>
+        <input type="text" name="firstname" required>
+        <br><br>
+
+        <!-- Last Name -->
+        <label>Last Name:</label>
+        <input type="text" name="lastname" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+        <!-- Address Proof (Checkbox) -->
+        <label>Address Proof:</label><br>
+        <input type="checkbox" name="proof" value="aadhar"> Aadhar Card<br>
+        <input type="checkbox" name="proof" value="voterid"> Voter ID<br>
+        <input type="checkbox" name="proof" value="drivinglicense"> Driving License<br>
+        <br>
+
+        <!-- District of Karnataka -->
+        <label>Select District of Karnataka:</label>
+        <select name="district">
+            <option value="">--Select District--</option>
+            <option>Bengaluru Urban</option>
+            <option>Mysuru</option>
+            <option>Mangaluru</option>
+            <option>Belagavi</option>
+            <option>Shivamogga</option>
+            <option>Ballari</option>
+            <option>Dharwad</option>
+            <option>Tumakuru</option>
+        </select>
+        <br><br>
+
+        <!-- Address -->
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <!-- Upload Bio Data -->
+        <label>Upload Bio Data:</label>
+        <input type="file" name="biodata">
+        <br><br>
+
+        <!-- Submit and Reset Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

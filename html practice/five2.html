@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model Explanation</title>
+
+    <!-- Embedded CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .box-model-demo {
+            width: 300px;
+            background-color: #add8e6;   /* Content area */
+            padding: 20px;               /* Padding */
+            border: 5px solid #000080;   /* Border */
+            margin: 40px auto;           /* Margin */
+            text-align: center;
+        }
+
+        .explanation {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 1px solid #333;
+            margin-top: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box Model</h1>
+
+    <!-- Box Model Example -->
+    <div class="box-model-demo">
+        CONTENT AREA
+    </div>
+
+    <!-- Explanation Text -->
+    <div class="explanation">
+        <h2>Box Model Components</h2>
+        <p><b>Content:</b> The actual content inside the element.</p>
+        <p><b>Padding:</b> Space between content and border.</p>
+        <p><b>Border:</b> Surrounds the padding and content.</p>
+        <p><b>Margin:</b> Space outside the border separating elements.</p>
+    </div>
+
+    <!-- Box Model Image -->
+    <h2 style="text-align:center;">Box Model Diagram</h2>
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png"
+        alt="CSS Box Model Diagram"
+        width="400">
+
+    <div class="explanation">
+        <p>
+            The above image visually represents the CSS box model showing
+            <b>margin</b>, <b>border</b>, <b>padding</b>, and <b>content</b>.
+            Every HTML element follows this structure.
+        </p>
+    </div>
+
+</body>
+</html>

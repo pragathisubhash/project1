@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Integration Types</title>
+
+    <!-- Internal JavaScript -->
+    <script>
+        function internalFunction() {
+            alert("This is Internal JavaScript (inside <script> tag).");
+        }
+    </script>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    <h1>Different Types of JavaScript Integration</h1>
+
+    <!-- Inline JavaScript -->
+    <button onclick="alert('This is Inline JavaScript (inside HTML element).')">
+        Inline JavaScript
+    </button>
+
+    <br><br>
+
+    <!-- Internal JavaScript -->
+    <button onclick="internalFunction()">
+        Internal JavaScript
+    </button>
+
+    <br><br>
+
+    <!-- External JavaScript -->
+    <button onclick="externalFunction()">
+        External JavaScript
+    </button>
+
+</body>
+</html>
